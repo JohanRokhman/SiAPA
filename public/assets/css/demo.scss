@@ -1,0 +1,16 @@
+$bg-color : orange;
+$ukuran : 20px;
+$warna : green;
+$font : Helvetica;
+
+
+h1 {
+    background: $bg-color;
+    color: $warna;
+}
+
+p {
+    background: $bg-color;
+    font-size: $ukuran;
+    color: $warna;
+}

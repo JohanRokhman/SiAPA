@@ -1,0 +1,163 @@
+html,
+body {
+    height: 100%;
+}
+
+.first {
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url("../img/Balaikota.jpeg");
+    background-position: top center;
+}
+
+.affix {
+    background-color: rgb(4, 202, 14);
+    -webkit-transition: padding 0.2s ease-out;
+    -moz-transition: padding 0.2s ease-out;
+    -o-transition: padding 0.2s ease-out;
+    transition: padding 0.2s ease-out;
+}
+
+@media (min-width:768px) {
+    .affix-top {
+        /* navbar style at top */
+        background-color: transparent;
+        border-color: transparent;
+        padding: 15px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+
+    }
+
+    nav .navbar-nav .nav-link,
+    nav .navbar-brand {
+        color: rgb(255, 255, 255);
+    }
+
+    section {
+        height: calc(70% - 50px);
+        height: 70;
+
+    }
+
+    .card {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    #sticky-footer {
+        flex-shrink: none;
+    }
+
+    .foter {
+        height: auto;
+        bottom: 0;
+    }
+
+    .section-jadwal {
+        height: initial;
+
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    /*# sourceMappingURL=style.css.map */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon-content {
+
+    background-color: white;
+    border-style: outset;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    position: relative;
+}
+
+#text-icon-content {
+    text-align: justify;
+    margin: 10px 10px 0px 10px;
+    padding: 20px 75px 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.icon-perdagangan {
+    padding: 40px 0px 40px 70px;
+}
+
+.Gambar-Event {
+    margin: 10px;
+    width: 220px;
+    height: 220px;
+}
+
+Gambar-Event-Utama {
+    margin: 10px;
+    width: 440px;
+    height: 440px;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+}
+
+.ukuran-card {
+    height: 200px;
+}
+
+@media (min-width: 360px) and (max-width: 767.98px) {
+
+    #text-icon-content {
+        text-align: justify;
+        margin: 0px 10px 0px 10px;
+        padding: 20px 75px 20px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .icon-perdagangan {
+        padding: 0px 0px 40px 70px;
+    }
+
+    .Gambar-Event {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .Gambar-Event-Utama {
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .card-mobile {
+        margin: 10px 50px 10px 50px;
+    }
+}
